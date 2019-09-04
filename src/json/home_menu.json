@@ -1,0 +1,164 @@
+[{
+	"title": "首页",
+	"url": "/",
+	"icon": "icon i-home"
+},
+{
+	"title": "金融服务管理",
+	"icon": "icon i-money",
+	"children": [{
+		"title": "添加金融服务",
+		"url": "/product/add",
+		"icon": "icon i-add"
+	},
+		{
+			"title": "金融服务列表",
+			"url": "/product/list",
+			"icon": "icon i-list"
+		},
+		{
+			"title": "金融服务分类管理",
+			"url": "/product/type_list",
+			"icon": "icon i-module"
+		},
+		{
+			"title": "产品负责人管理",
+			"url": "/product/contact_list",
+			"icon": "icon i-user"
+		},
+		{
+			"title": "筛选条件配置",
+			"url": "/product/filter_config",
+			"icon": "icon i-set"
+		}]
+},
+{
+	"title": "实名认证申请",
+	"url": "/authentication/list",
+	"icon": "icon i-authentication"
+},
+{
+	"title": "业务申请管理",
+	"url": "/business/list",
+	"icon": "icon i-task"
+},
+{
+	"title": "信用体验",
+	"icon": "icon i-medal",
+	"children": [{
+		"title": "信用评分查询",
+		"url": "/credit/credit_record_list",
+		"icon": "icon i-medal"
+	},
+	{
+		"title": "录入字段配置",
+		"url": "/credit/input_element_list",
+		"icon": "icon i-medal"
+	},
+	{
+		"title": "大数据接口配置",
+		"url": "/credit/big_data_interface_list",
+		"icon": "icon i-medal"
+	},{
+		"title": "信用评分模型配置",
+		"url": "/credit/credit_score_config",
+		"icon": "icon i-medal"
+	}]
+},
+{
+	"title": "用户管理",
+	"url": "/user/list",
+	"icon": "icon i-user"
+},
+{
+	"title": "文章管理",
+	"icon": "icon i-article",
+	"children": [{
+		"title": "添加文章",
+		"url": "/article/add",
+		"icon": "icon i-add"
+	},
+		{
+			"title": "文章列表",
+			"url": "/article/list",
+			"icon": "icon i-list"
+		},
+		{
+			"title": "文章分类管理",
+			"url": "/article/type_list",
+			"icon": "icon i-module"
+		}]
+},
+{
+	"title": "视频管理",
+	"icon": "icon i-video",
+	"children": [{
+		"title": "添加视频",
+		"url": "/video/add",
+		"icon": "icon i-add"
+	},
+		{
+			"title": "视频列表",
+			"url": "/video/list",
+			"icon": "icon i-list"
+		},
+		{
+			"title": "视频分类管理",
+			"url": "/video/type_list",
+			"icon": "icon i-module"
+		}]
+},
+{
+	"title": "系统公告",
+	"url": "/announcement/list",
+	"icon": "icon i-announcement"
+},
+{
+	"title": "广告管理",
+	"url": "/advertisement/list",
+	"icon": "icon i-ad"
+},
+{
+	"title": "合作伙伴管理",
+	"url": "/company/list",
+	"icon": "icon i-institution"
+},
+{
+	"title": "专家信息管理",
+	"url": "/profession/list",
+	"disabled": true,
+	"icon": "icon i-vip"
+},
+{
+	"title": "消息管理",
+	"icon": "icon i-bell",
+	"children": [{
+		"title": "模板管理",
+		"url": "/msg_push/tmpl_list",
+		"icon": "icon i-add"
+	},
+	{
+		"title": "消息推送记录",
+		"url": "/msg_push/history_list",
+		"icon": "icon i-list"
+	}]
+},
+{
+	"title": "系统管理",
+	"icon": "icon i-set",
+	"children": [{
+		"title": "数据字典",
+		"url": "/dictionary/list",
+		"icon": "icon i-dictionary"
+	},
+	{
+		"title": "模板下载管理",
+		"url": "/system/temp/list",
+		"icon": "icon i-paper"
+	},
+	{
+		"title": "网站配置",
+		"url": "/system/webconfig",
+		"icon": "icon i-param"
+	}]
+}]

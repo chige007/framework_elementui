@@ -1,0 +1,299 @@
+.page{
+	background-color: #fff;
+	//height: 100%;
+	width: 100%;
+	padding: 10px;
+	>.title{
+		font-size: 18px;
+		color: #222;
+		margin-bottom: 12px;
+	}
+	.module{
+		margin-bottom: 20px;
+		.module_title{
+			font-size: 16px;
+			margin-bottom: 15px;
+			color: #444;
+		}
+		.sub_module{
+			padding-left: 15px;
+			.module_title{
+				font-size: 14px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+				color: #666;
+			}
+		}
+	}
+}
+.myButtonGroup{
+	text-align: right;
+	margin-top: 10px;
+	.el-button{
+		margin-left: 10px;
+	}
+}
+.myToolbar{
+	.el-button{
+		padding: 0px 12px!important;
+		height: 35px;
+		i{
+			vertical-align: middle;
+			font-size: 16px;
+		}
+		span{
+			vertical-align: middle;
+			font-size: 13px;
+		}
+	}
+}
+.myTitle{
+	display: block;
+	padding-left: 8px;
+	border-left: 4px solid #4E69EA;
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	margin: 15px 0px;
+}
+.el-badge__content{
+	transform: scale(0.9) translateY(-50%) translateX(100%)!important;
+}
+.el-table{
+	margin: 10px 0px;
+	border-radius: 4px;
+	th{
+		padding: 4px 0px;
+	}
+	td{
+		padding: 10px 0px;
+		.el-table-column--imgwrapper{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img{
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+	}
+	.optCol{
+		padding: 0px;
+		.el-button{
+			padding: 5px;
+			i{
+				font-size: 15px;
+			}
+		}
+	}
+	.el-table__expanded-cell{
+		.el-form{
+			.el-form-item{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.el-pagination{
+	padding: 5px 0px;
+}
+.el-form{
+	&.form_keyword{
+		.el-form-item{
+			margin-bottom: 8px;
+			.el-date-editor.el-input,.el-select{
+				width: 100%;
+			}
+		}
+		+.buttonGroup{
+			text-align: right;
+			padding-top: 5px;
+		}
+	}
+	.el-form-item{
+		&.noLabel{
+			.el-form-item__content{
+				margin-left: 0px!important;
+			}
+		}
+		&.noStyle{
+			margin-bottom: 0px;
+			.el-form-item__content{
+				line-height: 1!important;
+				font-size: inherit;
+				>span{
+					line-height: 40px;
+				}
+			}
+		}
+		&.upload{
+			.el-form-item__content{
+				line-height: 1;
+			}
+		}
+		.form-item-tips{
+			color: #999;
+			font-size: 12px;
+			line-height: 2;
+		}
+		.el-input,
+		.el-select{
+			width: 100%;
+		}
+	}
+}
+.el-page-header{
+	padding: 10px 0px 20px 0px;
+}
+.el-button{
+	cursor: pointer;
+	+.el-button{
+		margin-left: 0px;
+	}
+}
+.el-loading-mask{
+	&.is-fullscreen{
+		.el-loading-spinner{
+			.el-icon-loading{}
+			font-size: 40px;
+		}
+	}
+}
+.el-input,
+.el-select{
+	&.is-disabled{
+		.el-input__inner{
+			color: #666;
+			background-color: #fff;
+		}
+	}
+	&.responsive{
+		width: 100%;
+		max-width: 400px;
+	}
+	@media screen and (max-width: 1200px) {
+		&.responsive{
+			width: 400px;
+		}
+	}
+}
+.el-checkbox{
+	&.is-disabled{
+		.el-checkbox__label{
+			color: #666!important;
+		}
+		.el-checkbox__inner{
+			border-color: #bbb!important;
+			&:after{
+				border-color: #666!important;
+			}
+		}
+	}
+}
+.el-radio{
+	&.is-disabled {
+		.el-radio__label {
+			color: #666 !important;
+		}
+		.el-radio__inner {
+			border-color: #bbb !important;
+			&:after {
+				border-color: #666 !important;
+			}
+		}
+	}
+}
+.el-textarea{
+	.el-textarea__inner{
+		padding: 10px 15px;
+	}
+	&.is-disabled{
+		.el-textarea__inner{
+			color: #666;
+			background-color: #fff;
+		}
+	}
+}
+.el-tree-node__content{
+	height: 30px;
+	>.el-tree-node__expand-icon{
+		padding: 8px 6px;
+	}
+}
+.el-submenu,
+.el-menu-item{
+	[class^="el-icon-"],
+	.icon{
+		display: inline-block;
+		text-align: left;
+		width: 24px;
+		margin-right: 0px;
+	}
+}
+.el-dialog__wrapper{
+	.el-dialog{
+		.el-input,
+		.el-select{
+			width: 100%;
+		}
+		.el-dialog__footer{
+			.el-button{
+				margin: 0px 5px;
+			}
+		}
+		.dialog-footer{
+			text-align: right;
+			margin-top: 20px;
+			.el-button{
+				margin-left: 10px;
+			}
+		}
+	}
+	&.nopadding{
+		.el-dialog{
+			.el-dialog__header{
+				padding: 20px;
+			}
+			.el-dialog__body{
+				padding: 0px;
+			}
+		}
+	}
+}
+.el-upload{
+	.myUploadTips{
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		bottom: 10%;
+		font-size: 13px;
+		color: #666;
+		z-index: 2;
+	}
+	.progress{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(255, 255, 255, 0.6);
+		flex-direction: column;
+		z-index: 1;
+		.tips{
+			.el-button{
+				padding: 1px;
+				i{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.el-image-viewer__wrapper{
+    .el-image-viewer__close{
+        color: #fff;
+    }
+}

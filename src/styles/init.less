@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	position: relative;
+	font-family: 'Microsoft Yahei',Helvetica, Arial, sans-serif;
+}
+html,body,ul,li,p,span,img{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	overflow: hidden;
+}
+a,span,input,button,textarea,i{
+	text-decoration: none;
+	outline: none;
+	&:hover,&:active,&:focus,&:focus:active{
+		text-decoration: none!important;
+		outline: none!important;
+		box-shadow: none!important;
+	}
+}
+
+
+ul,li{
+	list-style: none;
+}
+[v-cloak]{
+	display: none;
+}
+input,
+textarea{
+	&::-webkit-input-placeholder { /* WebKit browsers */
+		color: #aaa!important;
+	}
+	&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color: #aaa!important;
+	}
+	&::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color: #aaa!important;
+	}
+	&:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color: #aaa!important;
+	}
+}
