@@ -101,11 +101,11 @@
 			</el-table-column>
 			<el-table-column v-if="orderNum"
 							 type="index"
-							 width="45">
+							 width="40">
 			</el-table-column>
 			<el-table-column v-if="checkbox"
 							 type="selection"
-							 width="40"
+							 width="45"
 							 align="center">
 			</el-table-column>
 			<slot name="column"></slot>
